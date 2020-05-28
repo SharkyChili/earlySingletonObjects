@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
 @Service
-@Order(1)
 public class A {
     @Autowired
     B b;
